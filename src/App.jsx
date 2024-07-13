@@ -7,9 +7,9 @@ function App() {
   const flashcards = [
     {
       id: `1`,
-      question: "some question",
-      answer: "some answer",
-      options: ["option 1", "option 2", "option 3", "option 4"],
+      question: "What is 2 + 2?",
+      answer: "4",
+      // options: ["option 1", "option 2", "option 3", "option 4"],
     },
   ];
 
@@ -63,6 +63,7 @@ function App() {
 
   return (
     <>
+      {}
       <form className="header">
         <div className="form-group">
           <label htmlFor="category">Category</label>
